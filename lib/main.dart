@@ -95,21 +95,31 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                '🦚' * _counter,
+                style: Theme.of(context).textTheme.headline2,
+              ),
+            ),
             const Text(
-              'You have pushed the button this many times:',
+              'You found',
             ),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
             ),
+            Text(
+              'peacock${_counter > 1 ? 's' : ''}!',
+            ),
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
+      floatingActionButton: FloatingActionButton.extended(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
-        child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+        label: const Text('Peacock'),
+        icon: const Icon(Icons.add),
+      ),
     );
   }
 }
