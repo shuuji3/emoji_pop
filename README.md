@@ -1,6 +1,6 @@
 # emoji_pop
 
-Flutter app to learn emoji more!
+🦚 Flutter app to learn emoji more!
 
 ## Getting Started
 
