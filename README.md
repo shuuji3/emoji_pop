@@ -1,4 +1,4 @@
-# Emoji pop!
+# Emoji Pop!
 
 🦚 Flutter app to learn emoji more!
 
