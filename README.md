@@ -2,6 +2,12 @@
 
 🦚 Flutter app to learn emoji more!
 
+<img width="300"
+     alt="Screenshot of the app under construction"
+     src="https://user-images.githubusercontent.com/1425259/133188317-e256a89d-c034-4171-96bd-05d0e121e2c9.png">
+
+(This app is under develepment)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
